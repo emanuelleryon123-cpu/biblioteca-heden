@@ -1,0 +1,58 @@
+CRITICAL - 2026-05-28 13:37:32 --> Error: Class "App\Models\LivroModel" not found
+in APPPATH/Controllers/EmprestimoController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmprestimoController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
+CRITICAL - 2026-05-28 13:37:33 --> Error: Class "App\Models\LivroModel" not found
+in APPPATH/Controllers/EmprestimoController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmprestimoController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
+CRITICAL - 2026-05-28 13:51:15 --> Error: Class "App\Models\EmprestimoModel" not found
+in APPPATH/Controllers/EmprestimoController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\EmprestimoController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
+CRITICAL - 2026-05-28 13:51:16 --> Error: Class "App\Models\EmprestimoModel" not found
+in APPPATH/Controllers/EmprestimoController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\EmprestimoController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
+CRITICAL - 2026-05-28 13:54:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "emprestimo/editar.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/EmprestimoController.php(73): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmprestimoController->editar()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
+CRITICAL - 2026-05-28 13:54:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "emprestimo/editar.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/EmprestimoController.php(73): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\EmprestimoController->editar()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
+CRITICAL - 2026-05-28 13:58:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "livro/editar.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/LivroController.php(49): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\LivroController->editar()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/opt/lampp/htdocs/2026_ci4_biblioteca_principal/2026_ci4_biblioteca/public/index.php')
